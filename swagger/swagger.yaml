@@ -1,0 +1,32 @@
+---
+swagger: "2.0"
+info:
+  description: "Your Cool New API"
+  version: "version: 0.0.1"
+  title: "Your Cool New API"
+  contact:
+    email: "<your_email_here>"
+basePath: "/"
+schemes:
+- "https"
+paths:
+  "/":
+    get:
+      tags: []
+      summary: "Does a thing."
+      consumes: 
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "Does a thing successfully."
+          schema:
+            $ref: "#/definitions/Response"
+definitions:
+  Response:
+    type: "object"
+    example:
+      retValProp1: "retValProp1Value"
+      retValProp2: "retValProp2Value"
