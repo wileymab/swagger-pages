@@ -25,3 +25,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/wileymab/swagger-pages/m
 4. Create the repo in `github.8451.com`, and follow the setup for adding your github repo as your working tree remote.
 5. Go to `Settings` for you github repo, and enable `Pages` for the `master` branch.
 6. Once the pages link has been generated, you should be able to navigate to your new standalone swagger api docs.
+
+
+---
+
+Example @ https://github.com/wileymab/swagger-pages-test
+
+Generated Swagger Pages link: https://wileymab.github.io/swagger-pages-test/
