@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-wget https://github.8451.com/raw/m441527/swagger-pages/master/swagger.yaml?token=AAAAOy9XYaKf2sofcuuTGlwRgUbI8m2jks5c977jwA%3D%3D
-mv swagger.yaml?token=AAAAOy9XYaKf2sofcuuTGlwRgUbI8m2jks5c977jwA== swagger.yaml
+wget https://raw.githubusercontent.com/wileymab/swagger-pages/master/swagger.yaml swagger.yaml
 
 wget https://github.com/swagger-api/swagger-ui/archive/v3.22.2.zip
 unzip v3.22.2.zip

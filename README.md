@@ -11,7 +11,7 @@ cd <your_api_project_dir>
 2. Run the `setup.sh` script in `<your_api_project_dir>`.
 
 ```bash
-bash -c "$(curl -fsSL https://github.8451.com/raw/m441527/swagger-pages/master/setup.sh?token=AAAAO3UXBKKPyPjG2DaYnA1dedk_2hp3ks5c9rghwA%3D%3D)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/wileymab/swagger-pages/master/setup.sh)"
 ```
 
 3. Initialize `<your_api_project_dir>` as a git working tree. (`git init`)
