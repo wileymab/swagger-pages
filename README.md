@@ -1,5 +1,12 @@
 
 ### Swagger-Pages setup
+---
+> 
+> Based on the work from [Peter Evans](https://github.com/peter-evans)
+>
+> Read his work here: https://github.com/peter-evans/swagger-github-pages 
+>
+---
 
 1. Make `<your_api_project_dir>` directory, and `cd` into it.
 
